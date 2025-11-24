@@ -1,10 +1,10 @@
-Hospital Bed & Appointment System
+# Hospital Bed & Appointment System
 
-Overview
+### Overview
 
 The Hospital Bed & Appointment System is a Java-based console application designed to digitize the management of hospital resources. It solves the problem of manual tracking by providing a centralized system for patient admissions (bed management), doctor registries, and outpatient appointment scheduling.
 
-Features
+### Features
 
 Patient Admission (Bed Management):
 
@@ -14,25 +14,25 @@ Enforces a strict limit (20 beds) to simulate capacity constraints.
 
 Tracks patient details including age and ailment.
 
-Doctor Management:
+### Doctor Management:
 
 Maintains a digital registry of doctors and their specializations.
 
 Generates unique IDs for medical staff.
 
-Appointment System:
+### Appointment System:
 
 Links patients to specific doctors.
 
 Validates doctor existence before booking.
 
-Analytics Dashboard:
+### Analytics Dashboard:
 
 Bed Occupancy: Real-time percentage of beds in use.
 
 Doctor Load: Tracks which doctors have the most appointments.
 
-Data Persistence:
+### Data Persistence:
 
 Uses File I/O (Serialization) to save patients.dat, doctors.dat, and appointments.dat locally.
 
@@ -66,10 +66,11 @@ Run the Application:
 java -cp bin Main
 
 
-Instructions for Testing
+### Instructions for Testing
 
-Admit a Patient: Select Option 1. Enter details. Verify the "Bed Occupancy" increases in Analytics (Option 5).
+**Admit a Patient:** Select Option 1. Enter details. Verify the "Bed Occupancy" increases in Analytics (Option 5).
 
-Book Appointment: Add a Doctor (Option 2), then Book Appointment (Option 3). Use the Doctor ID provided in the list.
+**Book Appointment:** Add a Doctor (Option 2), then Book Appointment (Option 3). Use the Doctor ID provided in the list.
 
-Check Persistence: Close the app (Option 6), reopen it, and select "View All Records" (Option 4). Your data should still be there.
+
+**Check Persistence:** Close the app (Option 6), reopen it, and select "View All Records" (Option 4). Your data should still be there.
